@@ -1,0 +1,48 @@
+
+print("Hello To Grade Calculator!")
+print("Enter your earned points and then your total points after each time")
+g1 = float(input("#1 Earned: "))
+d1 = float(input("#1 Total: "))
+g2 = float(input("#2 Earned: "))
+d2 = float(input("#2 Total: "))
+g3 = float(input("#3 Earned: "))
+d3 = float(input("#3 Total: "))
+g4 = float(input("#4 Earned: "))
+d4 = float(input("#4 Total: "))
+g5 = float(input("#5 Earned: "))
+d5 = float(input("#5 Total: "))
+g6 = float(input("#6 Earned: "))
+d6 = float(input("#6 Total: "))
+g7 = float(input("#7 Earned: "))
+d7 = float(input("#7 Total: "))
+g8 = float(input("#8 Earned: "))
+d8 = float(input("#8 Total: "))
+g9 = float(input("#9 Earned: "))
+d9 = float(input("#9 Total: "))
+g10 = float(input("#10 Earned:"))
+d10 = float(input("#10 Total:"))
+g11 = float(input("#11 Earned:"))
+d11 = float(input("#11 Total:"))
+num = (g1) + (g2) + (g3) + (g4) + (g5) + (g6) + (g7) + (g8) +(g9) + (g10) + (g11)
+
+
+
+den = (d1) + (d2) + (d3) + (d4) + (d5) + (d6) + (d7) + (d8) +(d9) + (d10) + (d11)
+
+grade = float(num/den) * 100
+print("You have a " + str(round(grade,2)) + "%") 
+if grade < 60:
+    print("You are failing")
+if grade > 59 and grade < 70:
+    print("This criteria puts you at an D")
+if grade > 69 and grade < 80:
+    print("This criteria puts you at an C")
+if grade > 79 and grade < 90:
+    print("This criteria puts you at an B")
+if grade > 89.5:
+    print("This criteria puts you at an A")
+if grade > 100:
+    print("CONGRATS! YOU HAVE ACHIEVED TRYHARD!")
+   
+
+
